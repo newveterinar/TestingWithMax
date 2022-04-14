@@ -6,6 +6,10 @@ import android.widget.Button
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+
+    // Инициализация переменной должна быть раньше её использования
+    val btn = findViewById<Button>(R.id.view_btn)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -13,12 +17,10 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             // some action
         }
-        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Hello, Maks. You are best!", Toast.LENGTH_SHORT).show()
     }
 
-    val btn = findViewById<Button>(R.id.view_btn)
+    val someInt = 1000
 
-    val someInt = 1
-
-    val someText = "Hello World!"
+    val someText = "Hello World and All People!"
 }
