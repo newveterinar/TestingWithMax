@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener {
             // some action
         }
-
         Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show()
     }
 
@@ -21,4 +20,5 @@ class MainActivity : AppCompatActivity() {
 
     val someInt = 1
 
+    val someText = "Hello World!"
 }
