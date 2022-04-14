@@ -18,4 +18,6 @@ class MainActivity : AppCompatActivity() {
 
     val someInt = 1
 
+    val someText = "Hello World!"
+
 }
