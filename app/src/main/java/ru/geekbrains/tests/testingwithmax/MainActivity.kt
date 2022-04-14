@@ -16,4 +16,6 @@ class MainActivity : AppCompatActivity() {
 
     val btn = findViewById<Button>(R.id.view_btn)
 
+    val someInt = 1
+
 }
