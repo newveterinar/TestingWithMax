@@ -7,6 +7,14 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
+
+    /** Задание переменных */ //region
+    val btn = findViewById<Button>(R.id.view_btn)
+    val someInt = 1000
+    val someText = "Hello World and All People!"
+    //endregion
+
+  
     // Инициализация переменной должна быть раньше её использования
     val btn = findViewById<Button>(R.id.view_btn)
 
@@ -19,8 +27,4 @@ class MainActivity : AppCompatActivity() {
         }
         Toast.makeText(this, "Hello, Maks. You are best!", Toast.LENGTH_SHORT).show()
     }
-
-    val someInt = 1000
-
-    val someText = "Hello World and All People!"
 }
