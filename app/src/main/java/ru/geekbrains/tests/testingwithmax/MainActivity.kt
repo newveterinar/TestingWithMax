@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
     val someText = "Hello World and All People!"
     //endregion
 
-  
+
+    val someSomesome = "some"
     // Инициализация переменной должна быть раньше её использования
     val btn = findViewById<Button>(R.id.view_btn)
 
@@ -27,4 +28,5 @@ class MainActivity : AppCompatActivity() {
         }
         Toast.makeText(this, "Hello, Maks. You are best!", Toast.LENGTH_SHORT).show()
     }
+
 }
